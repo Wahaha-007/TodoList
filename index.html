@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Todo List - Basic</title>
+
+</head>
+
+<body>
+    <div class="mHeader">Todo List</div>
+    <div class="mBody">
+        <div class="mLeft-body">
+            <div class="headProject">
+                <h1>Projects</h1>
+            </div>
+            <div class="newProject">
+                <form id="addProject">
+                    <input type="text" id="pjName" name="pjName" value="" placeholder="New Project Name" size="22">
+                    <input type="submit" class="bNew" value="Add">
+                </form>
+                <p><br></p>
+            </div>
+            <div class="rootOldProject">
+                <!--div class="oldProject">
+                    <button class="pjTopic">Todo List No.1</button>
+                    <button class="pjDelete"><i class="fa fa-home"></i></button>
+                </div>
+                <div class="oldProject">
+                    <button class="pjTopic">Todo List - Longer</button>
+                    <button class="pjDelete">x</button>
+                </div-->
+            </div>
+        </div>
+
+
+        <div class="mRight-body">
+            <div class="headTask">
+                <h1 class="projHeader">Todo List No.1 's Tasks</h1>
+            </div>
+            <div class="newTask">
+                <form id="addTask">
+                    <label for="tName">Task Name :</label>
+                    <input type="text" id="tName" name="tName" value="" placeholder="New Task Name" size="40">
+                    <label for="tDate">Due Date :</label>
+                    <input type="date" id="tDate" name="tDate">
+                    <label for="tPriority">Priority :</label>
+                    <select id="tPriority" name="tPriority">
+                        <option value="3">High</option>
+                        <option value="2">Medium</option>
+                        <option value="1">Low</option>
+                    </select>
+                    <input type="submit" class="bNew" value="Add">
+                </form>
+                <hr>
+            </div>
+            <div class="rootOldTask">
+                <!--div class="oldWrapper">
+                    <div class="oldContainer">
+                        <div class="itemName prior2">Go for food</div>
+                        <div class="itemRight">
+                            <div class="itemDate">2021-11-11</div>
+                            <button class="pButton">Done</button>
+                            <button class="pButton">Update</button>
+                            <button class="pButton">X</button>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="oldWrapper">
+                    <div class="oldContainer">
+                        <div class="itemName prior3">Go for food ***</div>
+                        <div class="itemRight">
+                            <div class="itemDate">2021-11-11</div>
+                            <button class="pbDone">Done</button>
+                            <button class="pbEdit">Update</button>
+                            <button class="pbDelete">X</button>
+                        </div>
+                    </div>
+                    <hr>
+                </div-->
+            </div>
+        </div>
+    </div>
+    <div class="mFooter">A sad man on the journey of studying at Odine project.
+
+    </div>
+
+
+</body>
+
+</html>

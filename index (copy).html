@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Todo List - Basic</title>
+</head>
+
+<body>
+    <div class="mHeader">Todo List</div>
+    <div class="mBody">
+        <div class="mLeft-body">
+            <div class="headProject">
+                <h1>Projects</h1>
+            </div>
+            <div class="newProject">
+                <form id="addProject">
+                    <input type="text" id="fBname" name="fBname" value="" placeholder="New Project Name" size="22">
+                    <input type="submit" class="bNew" value="Add">
+                </form>
+                <p><br></p>
+            </div>
+            <div class="oldProject">
+                <button class="pTodo">Todo List No.1</button>
+                <button class="pButton">x</button>
+            </div>
+            <div class="oldProject">
+                <button class="pTodo">Todo List - Longer</button>
+                <button class="pButton">x</button>
+            </div>
+
+        </div>
+        <div class="mRight-body">
+            <div class="headTask">
+                <h1>Todo List No.1 's Tasks</h1>
+            </div>
+            <div class="newTask">
+                <form id="addTask">
+                    <label for="tName">Task Name :</label>
+                    <input type="text" id="tName" name="tName" value="" placeholder="New Task Name" size="40">
+                    <label for="tDate">Due Date :</label>
+                    <input type="date" id="tDate" name="tDate">
+                    <label for="tPriority">Priority :</label>
+                    <select id="tPriority" name="tPriority">
+                        <option value="3">High</option>
+                        <option value="2">Medium</option>
+                        <option value="1">Low</option>
+                        <option value="0">n/a</option>
+                    </select>
+                    <input type="submit" class="bNew" value="Add">
+                </form>
+                <hr>
+            </div>
+
+            <div class="oldTask">
+                <div class="oldContainer">
+                    <div class="itemName">Go for food</div>
+                    <div class="itemRight">
+                        <div class="itemDate">10 Dec 2021 </div>
+                        <button class="pButton">Done</button>
+                        <button class="pButton">Edit</button>
+                        <button class="pButton">X</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="mFooter">A sad man on the journey of studying at Odine project.
+
+    </div>
+
+
+</body>
+
+</html>
