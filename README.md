@@ -1,5 +1,5 @@
 # TodoList
-1.Re-check all functional again.
+1.Re-check all functional again.\n
 2.Refactoring code.
 3.Separate in multiple file, using pnx to join.
 4.Make better CSS
